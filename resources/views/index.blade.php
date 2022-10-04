@@ -5,7 +5,8 @@
 </head>
 <body>
 <div id="app">
-    <example-component></example-component>
+    <v-header></v-header>
+<router-view></router-view>
 </div>
     <script src="./js/app.js"></script>
 </body>
