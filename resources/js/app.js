@@ -19,7 +19,13 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+//Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+//Vue.component('test', require('./components/TestComponent.vue').default);
+
+//Mine
+
+Vue.component('v-header', require('./components/mine/Header.vue').default);
+Vue.component('v-content', require('./components/mine/Content.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -30,5 +36,5 @@ import router from "./router"
 
 const app = new Vue({
     el: '#app',
-    router
+    router:routes
 });
