@@ -1,22 +1,17 @@
 import vueRouter from 'vue-router';
-import Vue from 'vue/dist/vue.js';
+import Vue from 'vue';
 
 Vue.use(vueRouter);
-import Index from "./views/Index";
-//import Other from "./views/Other";
+import Index from "views/Index";
 
-const routes =[
+const routes =  [
     {
-        path: "/test",
+        path: "/",
         component: Index
-    }/*,
-    {
-        path:"/other",
-        component: Other
-    }*/
+    }
 ];
 
 export default new vueRouter({
-    mode:'history',
-    router:routes
+    mode: "history",
+    routes
 });

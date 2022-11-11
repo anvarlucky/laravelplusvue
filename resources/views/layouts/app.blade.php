@@ -17,7 +17,7 @@
 <script src="{{asset('/assets/js/popper.js')}}"></script>
 <script src="{{asset('/assets/js/bootstrap.bundle.js')}}"></script>
 <script src="{{asset('/assets/js/bootstrap.js')}}"></script>
-<script src={{asset("./js/app.js")}}></script>
+<script src={{asset("/js/app.js")}}></script>
 <script>
     $(document).ready(function () {
         $('.log-out').one('click', function () {
